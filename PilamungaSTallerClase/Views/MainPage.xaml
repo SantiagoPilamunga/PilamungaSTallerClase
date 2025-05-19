@@ -28,8 +28,10 @@
             Grid.Column="1"
             x:Name="BtnIrAStackPage"
             Text="Ir a StackPage"
-               MaximumHeightRequest="150"
-               MaximumWidthRequest="400"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                BackgroundColor="Beige"
+                TextColor="Black"
             Clicked="BtnIrAStackPage_Clicked" />
-        </Grid>
+    </Grid>
 </ContentPage>
