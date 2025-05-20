@@ -63,13 +63,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\GridPage.xaml.cs">
+	    <DependentUpon>GridPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\StackPage.xaml.cs">
+	    <DependentUpon>StackPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Views\AbsolutePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\FlexPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Stack.xaml">
+	  <MauiXaml Update="Views\StackPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
