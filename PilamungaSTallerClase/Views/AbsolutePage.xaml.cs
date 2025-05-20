@@ -6,4 +6,9 @@ public partial class AbsolutePage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void BtnIrAGridPage_Clicked(object sender, EventArgs e)
+    {
+		Navigation.PushAsync(new MainPage());
+    }
 }

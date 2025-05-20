@@ -6,10 +6,6 @@
     <FlexLayout 
         Direction="Row"
         Wrap="Wrap">
-        <Label 
-            Text="FlexPage"
-            VerticalOptions="Start" 
-            HorizontalOptions="Start" />
         <Button
             x:Name="BtnFP1"
             Text="Boton 1"
@@ -38,14 +34,14 @@
             VerticalOptions="Center"
             BackgroundColor="Beige"
             TextColor="Black" />
-        <br> </br>
+        
         <Button
-            x:Name="BtnIrAAbsolutePage"
+            x:Name="BtnIrAbsolutePage"
             Text="Ir a AbsolutePage"
             HorizontalOptions="Center"
             VerticalOptions="Center"
             BackgroundColor="Beige"
             TextColor="Black"
-            Clicked="BtnIrAAbsolutePage_Clicked" />
+            Clicked="BtnIrAbsolutePage_Clicked" />
     </FlexLayout>
 </ContentPage>

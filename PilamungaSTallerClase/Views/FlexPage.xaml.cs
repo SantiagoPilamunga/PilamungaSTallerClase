@@ -7,7 +7,7 @@ public partial class FlexPage : ContentPage
 		InitializeComponent();
 	}
 
-    private void BtnIrAAbsolutePage_Clicked(object sender, EventArgs e)
+    private void BtnIrAbsolutePage_Clicked(object sender, EventArgs e)
     {
 		Navigation.PushAsync(new AbsolutePage());
     }

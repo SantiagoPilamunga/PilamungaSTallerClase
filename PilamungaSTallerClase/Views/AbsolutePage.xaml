@@ -3,10 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PilamungaSTallerClase.Views.AbsolutePage"
              Title="AbsolutePage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <AbsoluteLayout>
+        <Image Source="osopolar.png"
+               AbsoluteLayout.LayoutBounds="0,0,1,1"
+               AbsoluteLayout.LayoutFlags="All"
+               Aspect="Center"/>
+        <Button
+            x:Name="BtnIrAGridPage"
+            Text="Ir a GridPage"
+            AbsoluteLayout.LayoutBounds="1,1,AutoSize,AutoSize"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            BackgroundColor="Beige"
+            TextColor="Black"
+            Clicked="BtnIrAGridPage_Clicked" />
+    </AbsoluteLayout>
 </ContentPage>
