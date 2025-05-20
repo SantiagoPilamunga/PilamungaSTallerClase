@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PilamungaSTallerClase.Views.Stack"
              Title="Stack">
-    <VerticalStackLayout>
+    <StackLayout>
         <Label 
             Text="SantiagoPilamunga"
             VerticalOptions="Center" 
@@ -27,5 +27,5 @@
             BackgroundColor="Beige"
             TextColor="Black"
             Clicked="BtnIrAFlexPage_Clicked" />
-    </VerticalStackLayout>
+    </StackLayout>
 </ContentPage>
