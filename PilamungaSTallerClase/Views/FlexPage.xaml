@@ -5,12 +5,16 @@
              Title="FlexPage">
     <FlexLayout 
         Direction="Row"
-        Wrap="Wrap">
+        Wrap="Wrap"
+        AlignItems="Start">
         <Button
             x:Name="BtnFP1"
             Text="Boton 1"
             HorizontalOptions="Center"
             VerticalOptions="Center"
+            WidthRequest="100"
+            HeightRequest="50"
+            Margin="5"
             BackgroundColor="Beige"
             TextColor="Black" />
         <Button
@@ -18,6 +22,9 @@
             Text="Boton 2"
             HorizontalOptions="Center"
             VerticalOptions="Center"
+            WidthRequest="100"
+            HeightRequest="50"
+            Margin="5"
             BackgroundColor="Beige"
             TextColor="Black" />
         <Button
@@ -25,21 +32,28 @@
             Text="Boton 3"
             HorizontalOptions="Center"
             VerticalOptions="Center"
+            WidthRequest="100"
+            HeightRequest="50"
+            Margin="5"
             BackgroundColor="Beige"
-            TextColor="Black" />    
+            TextColor="Black" />
         <Button
             x:Name="BtnFP4"
             Text="Boton 4"
             HorizontalOptions="Center"
             VerticalOptions="Center"
+            WidthRequest="100"
+            HeightRequest="50"
+            Margin="5"
             BackgroundColor="Beige"
             TextColor="Black" />
         
         <Button
             x:Name="BtnIrAbsolutePage"
             Text="Ir a AbsolutePage"
-            HorizontalOptions="Center"
-            VerticalOptions="Center"
+            FlexLayout.Basis="100%"
+            HorizontalOptions="Start"
+            VerticalOptions="Start"
             BackgroundColor="Beige"
             TextColor="Black"
             Clicked="BtnIrAbsolutePage_Clicked" />
