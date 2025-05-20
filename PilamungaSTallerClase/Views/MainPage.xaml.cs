@@ -1,4 +1,6 @@
-﻿namespace PilamungaSTallerClase
+﻿using PilamungaSTallerClase.Views;
+
+namespace PilamungaSTallerClase
 {
     public partial class MainPage : ContentPage
     {
@@ -12,7 +14,7 @@
 
         private void BtnIrAStackPage_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new MainPage());
+            Navigation.PushAsync(new Stack());
         }
     }
 

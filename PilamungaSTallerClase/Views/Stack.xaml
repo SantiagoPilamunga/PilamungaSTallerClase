@@ -5,8 +5,27 @@
              Title="Stack">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="SantiagoPilamunga"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"
+            FontSize="Header"/>
+        <Label 
+            Text="SantiagoPilamunga"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Body"/>
+        <Label 
+            Text="SantiagoPilamunga"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="Medium"/>
+        <Button 
+            x:Name="BtnIrAFlexPage"
+            Text="Ir a FlexPage"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            BackgroundColor="Beige"
+            TextColor="Black"
+            Clicked="BtnIrAFlexPage_Clicked" />
     </VerticalStackLayout>
 </ContentPage>
