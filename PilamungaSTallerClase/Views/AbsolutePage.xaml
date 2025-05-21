@@ -7,7 +7,16 @@
         <Image Source="osopolar.png"
                AbsoluteLayout.LayoutBounds="0,0,1,1"
                AbsoluteLayout.LayoutFlags="All"
-               Aspect="Center"/>
+               Aspect="AspectFit"/>
+        <ScrollView AbsoluteLayout.LayoutBounds="0,0,1,1"
+                    AbsoluteLayout.LayoutFlags="All">
+            <StackLayout Padding="20,120,20,20" Spacing="20">
+                <Label Text="Oso Polar" FontSize="24" FontAttributes="Bold" />
+                <Label Text="Es uno de los animales que viven en el artico" FontSize="18" />
+                <Label Text="tienen la capacidad de caminar y nadar grandes distancias a través del hielo y sus aguas heladas. Son nadadores muy fuertes y hábiles" FontSize="18" />
+                <BoxView HeightRequest="600" Color="Transparent"/>
+            </StackLayout>
+        </ScrollView>
         <Button
             x:Name="BtnIrAGridPage"
             Text="Ir a GridPage"
